@@ -11,8 +11,6 @@ const departementSchema = new mongoose.Schema({
     managerId: {
         type: mongoose.Schema.Types.ObjectId,
         ref:'Employee'
-    },
-    timestamps:
-    true
-    
+    }
 });
+module.exports = mongoose.model('Departement', departementSchema);

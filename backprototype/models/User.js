@@ -23,8 +23,6 @@ const userSchema = new mongoose.Schema({
         enum: ['Admin', 'HR Manager'],
         required:true
     }
-    ,timestamps:
-     true
     
     
 });

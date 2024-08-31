@@ -38,8 +38,6 @@ const employeeSchema = new mongoose.Schema({
         type: String,
      //   default: 'https://www.gravatar.com/avatar/
     },
-    timestamps:
-    true
-
+    
 });
 module.exports = mongoose.model('Employee', employeeSchema);
